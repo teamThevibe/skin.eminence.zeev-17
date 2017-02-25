@@ -12,9 +12,8 @@
 
 
 
-		<control type="radiobutton" id="19">
+		<control type="button" id="19">
 			<description>Filter (hidden)</description>
-			
 			<include>HiddenButton</include>
 		</control>
 		<include>Furniture_Background</include>
@@ -53,6 +52,7 @@
 
 				<visible>!Skin.HasSetting(kioskmode)</visible>
 				<include>DefMyNavBarGroupList</include>
+
 
 				<control type="button" id="564">
 
