@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<window type="window" id="1112">
+    <backgroundcolor>Background</backgroundcolor>
+    <defaultcontrol always="true">9501</defaultcontrol>
+    <onunload>SetProperty(HubReturn,1112,home)</onunload>
+    <controls>
+	
+							         <include condition="Skin.String(categories, em) + !Skin.String(categories, list)" content="Window_Vod">
+            <param name="categories" value="skinshortcuts-group-x1112" />
+        </include>
+		<include condition="!Skin.String(categories, em) + !Skin.String(categories, list)" content="Window_Vod2">
+            <param name="categories" value="skinshortcuts-group-x1112" />
+        </include>
+			<include condition="Skin.String(categories, list)" content="Window_Vod3">
+            <param name="categories" value="skinshortcuts-group-x1112" />
+        </include>
+	
+    </controls>
+</window>
